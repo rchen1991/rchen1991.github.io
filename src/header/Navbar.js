@@ -5,8 +5,9 @@ class Navbar extends React.Component {
         return (
           <nav className="navbar">
             <ul>
-              <li>About Me</li>
-              <li>Projects</li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
             </ul>
           </nav>
         );
