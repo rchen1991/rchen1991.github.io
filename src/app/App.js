@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from './header/Navbar';
+import Navbar from '../header/Navbar';
 
-import { BrowserRouter as Route, Link } from "react-router-dom";
+import { Route, Link } from "react-router-dom";
 
 import './App.css';
 
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="header">
-        <Link to="/" className="logo">RC</Link>
+        <Link to="/" className="logo">r|c</Link>
         <Navbar />
       </header>
       <div>

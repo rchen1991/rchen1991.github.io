@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Gudea&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Gudea', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+}
+
+.header {
+  border-bottom: 1px solid black;
+}
+
+.header .logo {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  font-size: 38px;
+  color: unset;
+}
+
+.header .logo:hover {
+  color: #ff00006e;
+}
