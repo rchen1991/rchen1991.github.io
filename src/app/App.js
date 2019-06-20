@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="header">
-        <Link to="/" className="logo">r|c</Link>
+        <Link to="/" className="logo">rc</Link>
         <Navbar />
       </header>
       <div>
