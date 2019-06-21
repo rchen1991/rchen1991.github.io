@@ -9,14 +9,16 @@ body {
 
 a {
   text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: #ff00006e;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-.App {
 }
 
 .header {
@@ -26,11 +28,8 @@ code {
 .header .logo {
   height: 50px;
   width: 50px;
-  display: inline-block;
-  font-size: 38px;
-  color: unset;
-}
-
-.header .logo:hover {
-  color: #ff00006e;
+  display: block;
+  font-size: 40px;
+  text-align: center;
+  line-height: 40px;
 }

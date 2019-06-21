@@ -1,3 +1,22 @@
+.navbar {
+  display: grid;
+  padding: 0 50px 0 0;
+  margin: 0;
+  text-align: center;
+  list-style-type: none;
+  grid-template-columns: 1fr 80px 80px;
+  grid-template-rows: 25px;
+  grid-template-areas: ". about projects";
+}
+
 .nav-link {
-  display: inline-block;
+  grid-row-start: 1;
+}
+
+.about {
+  grid-area: about;
+}
+
+.projects {
+  grid-area: projects;
 }

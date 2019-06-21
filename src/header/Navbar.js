@@ -6,12 +6,12 @@ import './Navbar.css'
 class Navbar extends React.Component {
     render() {
       return (
-          <ul>
-            <li className="nav-link">
+          <ul className="navbar">
+            <li className="nav-link about">
               <Link to="/about">About</Link>
             </li>
-            <li className="nav-link">
-              <Link to="/topics">Topics</Link>
+            <li className="nav-link projects">
+              <Link to="/topics">Projects</Link>
             </li>
           </ul>
       );
