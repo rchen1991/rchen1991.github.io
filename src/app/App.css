@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h2 {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
   color: unset;
@@ -32,4 +36,9 @@ code {
   font-size: 40px;
   text-align: center;
   line-height: 40px;
+}
+
+.app-body {
+  width: 90%;
+  margin: 3vw auto 0;
 }

@@ -4,9 +4,9 @@
   margin: 0;
   text-align: center;
   list-style-type: none;
-  grid-template-columns: 1fr 80px 80px;
+  grid-template-columns: 1fr 100px 100px 100px;
   grid-template-rows: 25px;
-  grid-template-areas: ". about projects";
+  grid-template-areas: ". about projects food-travel";
 }
 
 .nav-link {
@@ -19,4 +19,8 @@
 
 .projects {
   grid-area: projects;
+}
+
+.food-travel {
+  grid-area: food-travel;
 }
